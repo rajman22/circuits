@@ -24,6 +24,20 @@
 #define BOOLEAN_CIRCUIT_HPP
 
 namespace circuit {
-namespace {}  // namespace
+namespace {
+
+template <typename T>
+struct Wire;
+
+template <typename T>
+struct Gate;
+
+template <class Wire, class Gate>
+class BooleanCircuit {
+   public:
+   private:
+};
+
+}  // namespace
 }  // namespace circuit
 #endif  // BOOLEAN_CIRCUIT_HPP

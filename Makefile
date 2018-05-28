@@ -1,1 +1,4 @@
+LIB = circuits
+CXX ?= 
+
 

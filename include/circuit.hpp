@@ -24,5 +24,9 @@
 #include "boolean_circuit.hpp"
 
 namespace circuit {
-namespace {}
+namespace {
+
+template <typename T>
+class Circuit;
+}
 }  // namespace circuit

@@ -24,6 +24,22 @@
 #define ARITHMETIC_CIRCUIT_HPP
 
 namespace circuit {
-namespace {}
+namespace {
+
+class Field;
+
+template <typename T>
+struct Wire;
+
+template <typename T>
+struct Gate;
+
+template <class Wire, class Gate>
+class ArithmeticCircuit {
+   public:
+   private:
+};
+
+}  // namespace
 }  // namespace circuit
 #endif  // ARITHMETIC_CIRCUIT_HPP
